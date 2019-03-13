@@ -1,0 +1,80 @@
+2019-02-26 20:19:10,122 - root - INFO - running environment: development
+2019-02-26 20:19:10,400 - root - INFO - running environment: development
+2019-02-26 20:19:26,213 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-04 19:53:05,426 - root - INFO - running environment: development
+2019-03-04 19:53:06,051 - root - INFO - running environment: development
+2019-03-04 19:55:05,057 - root - INFO - running environment: development
+2019-03-04 19:55:05,478 - root - INFO - running environment: development
+2019-03-04 19:56:07,683 - root - INFO - running environment: development
+2019-03-04 19:56:51,051 - root - INFO - running environment: development
+2019-03-04 19:56:51,679 - root - INFO - running environment: development
+2019-03-04 20:02:08,564 - root - INFO - running environment: development
+2019-03-04 20:02:16,569 - root - INFO - running environment: development
+2019-03-05 18:42:55,445 - root - INFO - running environment: development
+2019-03-05 18:42:55,938 - root - INFO - running environment: development
+2019-03-05 18:43:22,698 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-05 18:44:11,311 - root - INFO - running environment: development
+2019-03-05 18:49:13,742 - root - INFO - running environment: development
+2019-03-05 18:49:14,247 - root - INFO - running environment: development
+2019-03-05 18:51:09,593 - root - INFO - running environment: development
+2019-03-05 18:52:51,542 - root - INFO - running environment: development
+2019-03-05 18:52:52,067 - root - INFO - running environment: development
+2019-03-05 18:54:20,795 - root - INFO - running environment: development
+2019-03-05 18:56:12,964 - root - INFO - running environment: development
+2019-03-05 18:56:13,493 - root - INFO - running environment: development
+2019-03-05 19:09:50,256 - root - INFO - running environment: development
+2019-03-05 19:09:50,833 - root - INFO - running environment: development
+2019-03-05 19:28:40,965 - root - INFO - running environment: development
+2019-03-05 19:28:41,494 - root - INFO - running environment: development
+2019-03-05 19:29:09,158 - root - INFO - running environment: development
+2019-03-05 19:29:31,250 - root - INFO - running environment: development
+2019-03-05 19:30:02,022 - root - INFO - running environment: development
+2019-03-05 19:30:02,544 - root - INFO - running environment: development
+2019-03-05 19:34:26,601 - root - INFO - running environment: development
+2019-03-05 19:34:54,000 - root - INFO - running environment: development
+2019-03-05 19:54:19,664 - root - INFO - running environment: development
+2019-03-05 19:54:20,249 - root - INFO - running environment: development
+2019-03-05 20:15:02,832 - root - INFO - running environment: development
+2019-03-05 20:15:03,455 - root - INFO - running environment: development
+2019-03-05 14:30:03,851 - root - INFO - running environment: None
+2019-03-05 14:30:28,901 - root - INFO - running environment: None
+2019-03-05 14:30:41,206 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-06 08:47:19,254 - root - INFO - running environment: None
+2019-03-06 08:50:13,258 - root - INFO - running environment: None
+2019-03-06 08:51:04,232 - root - INFO - running environment: None
+2019-03-06 08:52:11,715 - root - INFO - running environment: None
+2019-03-06 08:52:54,252 - root - INFO - running environment: None
+2019-03-06 08:58:58,087 - root - INFO - running environment: None
+2019-03-06 08:59:26,069 - root - INFO - running environment: None
+2019-03-06 08:59:48,324 - root - INFO - running environment: None
+2019-03-06 09:00:51,357 - root - INFO - running environment: None
+2019-03-06 09:03:38,170 - root - INFO - running environment: None
+2019-03-08 07:53:42,519 - root - INFO - running environment: None
+2019-03-08 07:54:11,999 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-08 08:07:33,274 - root - INFO - running environment: None
+2019-03-08 08:15:14,503 - root - INFO - running environment: None
+2019-03-08 08:55:08,369 - root - INFO - running environment: None
+2019-03-08 08:57:56,970 - root - INFO - running environment: None
+2019-03-08 09:01:28,217 - root - INFO - running environment: None
+2019-03-08 09:09:06,109 - root - INFO - running environment: None
+2019-03-08 09:20:33,093 - root - INFO - running environment: None
+2019-03-08 09:25:20,633 - root - INFO - running environment: None
+2019-03-11 11:53:42,827 - root - INFO - running environment: None
+2019-03-11 18:59:59,760 - root - INFO - running environment: development
+2019-03-11 19:00:00,312 - root - INFO - running environment: development
+2019-03-11 19:00:21,609 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-11 12:11:35,968 - root - INFO - running environment: None
+2019-03-12 14:35:29,790 - root - INFO - running environment: None
+2019-03-12 19:42:56,877 - root - INFO - running environment: None
+2019-03-12 19:44:15,828 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-12 19:45:25,088 - root - INFO - running environment: None
+2019-03-12 19:46:10,690 - root - INFO - running environment: None
+2019-03-12 19:53:38,913 - root - INFO - running environment: None
+2019-03-12 19:54:05,374 - root - ERROR - 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2019-03-12 21:07:04,941 - root - INFO - running environment: None
+2019-03-12 21:26:11,987 - root - INFO - running environment: None
+2019-03-12 21:35:44,017 - root - INFO - running environment: None
+2019-03-12 21:50:43,338 - root - INFO - running environment: None
+2019-03-12 22:47:46,263 - root - INFO - running environment: None
+2019-03-13 18:13:00,386 - root - INFO - running environment: development
+2019-03-13 18:13:00,943 - root - INFO - running environment: development
