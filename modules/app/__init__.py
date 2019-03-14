@@ -28,14 +28,13 @@ class JSONEncoder(json.JSONEncoder):
 app = Flask(__name__)
 
 
-
-
-app.config['MONGO_URI'] = os.environ.get('DB', 'mongodb://localhost:27017/newsAPI')
-# app.config['MONGO_URI'] = os.environ.get('DB', 'mongodb://mbnadmin:nbm123!@mbn01-glqch.mongodb.net/newsAPI')
+# app.config['MONGO_URI'] = os.environ.get('DB', 'mongodb://localhost:27017/newsAPI')
+# app.config['MONGO_URI'] = os.environ.get('DB', 'mongodb://mbnadmin:nbm123!@mbn01-glqch.mongodb.net:27017/newsAPI')
+app.config['MONGO_URI'] = os.environ.get('DB', "mongodb+srv://mbnadmin:nbm123!@mbn01-glqch.mongodb.net/newsAPI2")
 mongo = PyMongo(app)
 app.json_encoder = JSONEncoder
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=get_news,args=[mongo], trigger="interval", minutes=1)
+scheduler.add_job(func=get_news,args=[mongo], trigger="interval", hour=1)
 scheduler.start()
 from app.controllers import *
