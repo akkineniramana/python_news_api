@@ -35,6 +35,6 @@ mongo = PyMongo(app)
 app.json_encoder = JSONEncoder
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=get_news,args=[mongo], trigger="interval", hour=1)
+scheduler.add_job(func=get_news,args=[mongo], trigger="interval", hours=1)
 scheduler.start()
 from app.controllers import *
