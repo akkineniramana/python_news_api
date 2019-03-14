@@ -23,16 +23,36 @@ def get_news(mongo):
         newsapi = NewsApiClient(api_key='223203f6d6024df3ab547aaacd86be12')
         top_headlines = newsapi.get_top_headlines(sources=news_source)
         if top_headlines['status'] == 'ok':
-            LOG.info(top_headlines['articles'])
-            todays_news_titles = get_todays_titles(mongo)
-            if len(todays_news_titles) != 0:
-                LOG.info("already news are there for today")
-                for news_record in top_headlines['articles']:
-                    if(news_record['title'] not in todays_news_titles):
-                        mongo.db.news.insert(news_record)
-            else:
-                LOG.info("no news yet for today")
-                mongo.db.news.insert_many(top_headlines['articles'])
+            for news_record in top_headlines['articles']:
+                try:
+                    mongo.db.news.update(
+                        {"title":  news_record['title'],
+                            "author":  news_record['author']},
+                        news_record,
+                        upsert=True
+                    )
+                except Exception  as e:
+                    print("exception is ",e)
+                
+            
+            # mongo.db.news.update({
+            #     {"title" : {"$regex" : news_record['title']}}
+            # })
+            # LOG.info(top_headlines['articles'])
+            # todays_news_titles = get_todays_titles(mongo)
+            # print(todays_news_titles)
+            # if len(todays_news_titles) != 0:
+            #     LOG.info("already news are there for today")
+            #     for news_record in top_headlines['articles']:
+            #         print("title is ",)
+            #         if(news_record['title'] not in todays_news_titles):
+            #             mongo.db.news.insert(news_record)
+            #             print(" title ", news_record['title'])
+            #         else:
+            #             print("else title ", news_record['title'])
+            # else:
+            #     LOG.info("no news yet for today")
+            #     mongo.db.news.insert_many(top_headlines['articles'])
         else:
             LOG.error("request failed")
     except Exception as e:
